@@ -5,7 +5,7 @@ public class Main{
 		double[] nums=new double[3];
 		for(int i=0;i<nums.length;i++){
 			//1.0から順番に詰める
-			nums[1]=i;				
+			nums[i]=i+1;				
 		}
 		System.out.println(Arrays.toString(nums));
 	}
